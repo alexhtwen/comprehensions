@@ -1,0 +1,10 @@
+print()
+print(f"{[char*2 for char in 'abcde'] = }")
+print(f"{[i+1 for i in [1, 3, 5]] = }")
+print(f"{[i-1 for i in (2, 4, 6)] = }")
+print(f"{[i for i in {6, 0, '0', 5}] = }")
+d = {21:9, 16:9, 4:3, 5:4}
+print(f'{d = }')
+print(f"{[round(k/v, 2) for k, v in d.items()] = }")
+print(f"{[i**2 for i in range(9)] = }")
+print()
